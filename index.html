@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Jump</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container principal do jogo -->
+    <div class="bord">
+        <img src="images/pipe.png" class="pipe">
+        <img src="images/mario.gif" class="mario">
+        <img src="images/clouds.png" class="clouds">
+    </div>
+
+    <!-- Interface do usuário -->
+    <div class="score">Pontuação: <span id="score">0</span></div>
+    <button id="restartBtn" style="display: none;">Reiniciar</button>
+
+    <!-- Tela de Game Over -->
+    <div id="gameOver" class="game-over">
+        <div>Fim de Jogo!</div>
+        <div style="font-size: 20px; margin-top: 10px;">Pontuação Final: <span id="finalScore">0</span></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
